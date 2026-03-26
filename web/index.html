@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PlaySphere - A comprehensive social sharing platform with creator monetization and advanced analytics.">
+  <meta http-equiv="Content-Security-Policy" content="img-src 'self' data: https: http:; default-src 'self' 'unsafe-inline' 'unsafe-eval' https: http: data: blob:;">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PlaySphere">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>PlaySphere - Social Video Platform</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyA7jo5h-RomK94sMIKubxH3iDnI_o99vfs",
+      authDomain: "playsphere-4618e.firebaseapp.com",
+      projectId: "playsphere-4618e",
+      storageBucket: "playsphere-4618e.firebasestorage.app",
+      messagingSenderId: "498232406001",
+      appId: "1:498232406001:web:bdedec096a2d54a2179e50"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+</head>
+<body>
+  <!-- Loading indicator -->
+  <div id="loading" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #0175C2;">
+    <div style="color: white; font-family: Arial, sans-serif; font-size: 18px;">Loading...</div>
+  </div>
+  
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
